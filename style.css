@@ -17,5 +17,27 @@
 .clockTime
 {
     color: white;
-    font-size: 4.5rem;
+    font-size: 4rem;
+    padding: 3rem;
+
+}
+
+button
+{
+    padding: 20px;
+    width: 200px;
+    border: none;
+    background-color: whitesmoke;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 0 10px black;
+    margin: 30px;
+
+}
+
+button:hover
+{
+    background-color: rgb(167, 255, 255);
 }
