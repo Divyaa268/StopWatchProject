@@ -25,7 +25,8 @@ const startWatch = () =>
             minute++;
         }
         
-        console.log(`${String(hour).padStart(2,"0")}:${String(minute).padStart(2,"0")}:${String(second).padStart(2,"0")}`);
+        clock.innerText = `${String(hour).padStart(2,"0")}:${String(minute).padStart(2,"0")}:${String(second).padStart(2,"0")}`
+        // console.log(`${String(hour).padStart(2,"0")}:${String(minute).padStart(2,"0")}:${String(second).padStart(2,"0")}`);
     }, 1000)
 }; 
 

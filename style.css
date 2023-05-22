@@ -3,6 +3,22 @@
     padding: 0%;
     margin: 0%;
 }
+.heading
+{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+h1
+{
+    text-align: center;
+    font-size: 3rem;
+
+}
+
 
 .container
 {   
