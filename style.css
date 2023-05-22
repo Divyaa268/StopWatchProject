@@ -1,0 +1,21 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+
+.container
+{   
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clockTime
+{
+    color: white;
+    font-size: 4.5rem;
+}
